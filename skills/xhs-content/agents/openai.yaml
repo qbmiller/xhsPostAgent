@@ -1,0 +1,4 @@
+interface:
+  display_name: "小红书图文内容"
+  short_description: "把链接整理成小红书 Emoji 文案、配图和可发布素材"
+  default_prompt: "使用 $xhs-content 将这个链接整理成可发布的小红书图文素材。"
