@@ -1,7 +1,7 @@
 SHELL := /bin/sh
 .SHELLFLAGS := -eu -c
 
-SKILL_DIRS := skills/claude-motion-design skills/claude-motion
+SKILL_DIRS := skills/claude-motion-design skills/claude-motion skills/hyperframes-repo
 
 .PHONY: update
 
