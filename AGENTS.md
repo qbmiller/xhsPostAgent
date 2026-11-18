@@ -14,6 +14,7 @@
 ## 动画技能路由
 
 - 选择动画后，按任务需要读取已安装技能：
+  - [`skills/stick-scene/SKILL.md`](skills/stick-scene/SKILL.md)：火柴人 Canvas 场景，适合讲解分析视频中的流程、协作关系、产品原理和因果过程；完整视频需配合时间线、字幕、旁白与导出。发现入口为 `.agents/skills/stick-scene`；上游检测脚本使用 Playwright，不可直接执行，预览、截图、采帧和测试统一使用 ego-browser。
   - [`skills/anidoodle/SKILL.md`](skills/anidoodle/SKILL.md)：纯代码绘制的插画、手绘过程动画、循环动图、讲解片与产品发布片；需要手绘媒介质感、角色一致性或可复现画面时优先考虑，也可用于图文封面与系列配图。
   - [`skills/hyperframes-repo/skills/hyperframes/SKILL.md`](skills/hyperframes-repo/skills/hyperframes/SKILL.md)：HyperFrames 视频与动效入口；项目级技能链接位于 `.agents/skills/`，按入口指引加载创作流程和领域技能。
   - [`skills/claude-motion-design/skill/motion-design/SKILL.md`](skills/claude-motion-design/skill/motion-design/SKILL.md)：HTML + Playwright + FFmpeg 的逐帧动效方案，适合产品发布、功能演示和节拍同步视频。

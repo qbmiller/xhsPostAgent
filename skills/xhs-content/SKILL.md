@@ -34,6 +34,7 @@ metadata:
 
 用户选择动画后，按任务读取以下已安装技能：
 
+- `skills/stick-scene/SKILL.md`：火柴人场景，用于讲解分析视频中的流程、协作关系、产品原理与因果过程；配合时间线、字幕、旁白和导出流程形成完整视频，预览、采帧与检查使用 ego-browser。
 - `skills/claude-motion-design/skill/motion-design/SKILL.md`：HTML + Playwright + FFmpeg 逐帧渲染，适合产品发布和功能演示。
 - `skills/claude-motion/.claude/skills/motion-design/SKILL.md`：Remotion 动效节奏、时间线和视觉规则。
 - `skills/claude-motion/.claude/skills/review-loop/SKILL.md`：渲染草稿、逐帧截图、自检和返工。
