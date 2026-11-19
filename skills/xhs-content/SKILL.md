@@ -145,6 +145,6 @@ YYYY-MM-DD/
 
 ## 参考依据
 
-- Codex Skill 编写规范：`/Users/miller/.codex/skills/.system/skill-creator/SKILL.md`。
+- Codex Skill 编写规范：`~/.codex/skills/.system/skill-creator/SKILL.md`。
 - 本地联网与动态页面访问规范（GitHub 来源）：<https://github.com/eze-is/web-access>。
 - 小红书创作者平台入口：<https://creator.xiaohongshu.com/publish/publish?source=official&from=menu>。

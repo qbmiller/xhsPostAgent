@@ -10,7 +10,7 @@ description: 用手绘火柴人 Canvas 动画呈现产品原理、操作流程�
 ## 项目边界
 
 - 创作简报、场景标签、字幕和交付说明使用简体中文。上游代码、许可证及参考资料保留原文。
-- 所有浏览器操作，包括预览、截图、取帧和测试，先读取 `/Users/miller/.agents/skills/ego-browser/SKILL.md`，通过 ego-browser 执行。联网内容同时遵循 web-access 的访问边界。
+- 所有浏览器操作，包括预览、截图、取帧和测试，先读取 `~/.agents/skills/ego-browser/SKILL.md`，通过 ego-browser 执行。联网内容同时遵循 web-access 的访问边界。
 - 上游 `scripts/frames.mjs`、`scripts/motion.mjs` 会启动 Playwright，在本项目中不能直接执行。可参考其采样和检测逻辑迁移至 ego-browser；不能完成时记录具体渲染待办，不能标记检查通过。
 - 创作工程写入本项目当次 `YYYY-MM-DD/编号/` 目录，复制所需运行时和模板，不直接修改技能运行时或示例。保留 MIT 许可证。
 
