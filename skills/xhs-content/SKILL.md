@@ -111,21 +111,22 @@ metadata:
 
 ### 4. 按日期和编号归档
 
-在当前工作目录创建以下结构，日期按 Asia/Shanghai 计算：
+在项目根目录的 `history/` 下创建以下结构，日期按 Asia/Shanghai 计算；`history/` 由 Git 忽略，仅保存在本地：
 
 ```text
-YYYY-MM-DD/
-└── 001/
-    ├── cover.png
-    ├── source-feature.png
-    ├── image-01.png
-    ├── image-02.png
-    ├── copy.md
-    ├── source.json
-    └── manifest.json
+history/
+└── YYYY-MM-DD/
+    └── 001/
+        ├── cover.png
+        ├── source-feature.png
+        ├── image-01.png
+        ├── image-02.png
+        ├── copy.md
+        ├── source.json
+        └── manifest.json
 ```
 
-- 同一天已有目录时，使用三位数字递增编号（`001`、`002`……），不能覆盖已有素材。
+- 在 `history/YYYY-MM-DD/` 中，同一天已有目录时，使用三位数字递增编号（`001`、`002`……），不能覆盖已有素材。
 - `copy.md` 只放可复制的标题、正文和标签；`source.json` 保存来源 URL、抓取时间、来源摘要、项目名称、短地址、截图 URL、页面区域和版权备注；`manifest.json` 记录图片文件、尺寸、生成提示词、截图来源、项目身份标识和发布状态，截图字段至少包含 `sourceUrl`、`section`、`capturedAt`、`copyrightNote` 和 `sourceScreenshotStatus`，并记录 `projectIdentity.name`、`projectIdentity.shortUrl`、`projectIdentity.imageFile`、`projectIdentity.placement` 和 `complianceChecks`。
 - 生成前后检查文件确实存在；如果图片生成失败，保留 `image-prompts.md`，并在 `manifest.json` 标记 `imageStatus: "pending"`。
 
